@@ -15,7 +15,6 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 
-
     <application
         android:name="com.example.wallt.WALLTApplication"
         android:allowBackup="true"
@@ -51,6 +50,12 @@
             android:screenOrientation="portrait"
             android:theme="@style/NoTitleTheme" >
         </activity>
+
+        <service
+            android:name="com.example.wallt.MusicService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
     </application>
 
 </manifest>

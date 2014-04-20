@@ -2,6 +2,7 @@ package com.example.wallt.views;
 
 import java.util.HashMap;
 
+import com.example.wallt.MusicService;
 import com.example.wallt.R;
 import com.example.wallt.R.anim;
 import com.example.wallt.R.id;
@@ -44,7 +45,6 @@ public class MainActivity extends Activity {
 	    fragmentTransaction.replace(R.id.container, fragment, null);
 	    fragmentTransaction.addToBackStack(null);
 	    fragmentTransaction.commit();
-	    new BackgroundSound().execute();
 	}
 	
 	public void addFragment(final Fragment fragment, final String tag) {
@@ -79,19 +79,5 @@ public class MainActivity extends Activity {
 		i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.
 				FLAG_ACTIVITY_CLEAR_TASK);
 		startActivity(i);
-	}
-	
-	private class BackgroundSound extends AsyncTask<Void, Void, Void> {
-
-	    @Override
-	    protected Void doInBackground(Void... params) {
-	        MediaPlayer player = MediaPlayer.create(MainActivity.this, R.raw.wii); 
-	        player.setLooping(true); // Set looping 
-	        player.setVolume(100,100); 
-	        player.start(); 
-
-	        return null;
-	    }
-
 	}
 }
