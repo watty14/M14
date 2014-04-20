@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/home/thomas/workspace/WALLT/assets" />
+        <source path="C:\Users\pbz18_000\Documents\M14\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/thomas/workspace/WALLT/src/debug/assets" />
+        <source path="C:\Users\pbz18_000\Documents\M14\src\debug\assets" />
     </dataSet>
 
 </merger>

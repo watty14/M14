@@ -13,11 +13,11 @@
 If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
         url="http://developer.android.com/reference/java/util/Locale.html#default_locale"
         urls="http://developer.android.com/reference/java/util/Locale.html#default_locale"
-        errorLine1="                    type = type.toLowerCase();"
+        errorLine1="                    type = type.toLowerCase();"
         errorLine2="                                ~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/src/com/example/wallt/presenters/ReportsUtility.java"
-            line="50"
+            file="C:\Users\pbz18_000\Documents\M14\src\com\example\wallt\presenters\ReportsUtility.java"
+            line="58"
             column="33"/>
     </issue>
 
@@ -33,31 +33,11 @@ If you want the methods to just perform ASCII replacement, for example to conver
 If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
         url="http://developer.android.com/reference/java/util/Locale.html#default_locale"
         urls="http://developer.android.com/reference/java/util/Locale.html#default_locale"
-        errorLine1="                        reason1 = reason1.toLowerCase();"
-        errorLine2="                                          ~~~~~~~~~~~">
-        <location
-            file="/home/thomas/workspace/WALLT/src/com/example/wallt/presenters/ReportsUtility.java"
-            line="53"
-            column="43"/>
-    </issue>
-
-    <issue
-        id="DefaultLocale"
-        severity="Warning"
-        message="Implicitly using the default locale is a common source of bugs: Use toLowerCase(Locale) instead"
-        category="Correctness"
-        priority="6"
-        summary="Finds calls to locale-ambiguous `String` manipulation methods"
-        explanation="Calling `String#toLowerCase()` or `#toUpperCase()` *without specifying an explicit locale* is a common source of bugs. The reason for that is that those methods will use the current locale on the user&apos;s device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for `i` is *not* `I`.
-
-If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
-        url="http://developer.android.com/reference/java/util/Locale.html#default_locale"
-        urls="http://developer.android.com/reference/java/util/Locale.html#default_locale"
-        errorLine1="                    type = type.toLowerCase();"
+        errorLine1="                    type = type.toLowerCase();"
         errorLine2="                                ~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/src/com/example/wallt/presenters/ReportsUtility.java"
-            line="96"
+            file="C:\Users\pbz18_000\Documents\M14\src\com\example\wallt\presenters\ReportsUtility.java"
+            line="97"
             column="33"/>
     </issue>
 
@@ -73,31 +53,11 @@ If you want the methods to just perform ASCII replacement, for example to conver
 If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
         url="http://developer.android.com/reference/java/util/Locale.html#default_locale"
         urls="http://developer.android.com/reference/java/util/Locale.html#default_locale"
-        errorLine1="                        reason = reason.toLowerCase();"
-        errorLine2="                                        ~~~~~~~~~~~">
-        <location
-            file="/home/thomas/workspace/WALLT/src/com/example/wallt/presenters/ReportsUtility.java"
-            line="99"
-            column="41"/>
-    </issue>
-
-    <issue
-        id="DefaultLocale"
-        severity="Warning"
-        message="Implicitly using the default locale is a common source of bugs: Use toLowerCase(Locale) instead"
-        category="Correctness"
-        priority="6"
-        summary="Finds calls to locale-ambiguous `String` manipulation methods"
-        explanation="Calling `String#toLowerCase()` or `#toUpperCase()` *without specifying an explicit locale* is a common source of bugs. The reason for that is that those methods will use the current locale on the user&apos;s device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for `i` is *not* `I`.
-
-If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
-        url="http://developer.android.com/reference/java/util/Locale.html#default_locale"
-        urls="http://developer.android.com/reference/java/util/Locale.html#default_locale"
-        errorLine1="                    type = type.toLowerCase();"
+        errorLine1="                    type = type.toLowerCase();"
         errorLine2="                                ~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/src/com/example/wallt/presenters/ReportsUtility.java"
-            line="142"
+            file="C:\Users\pbz18_000\Documents\M14\src\com\example\wallt\presenters\ReportsUtility.java"
+            line="135"
             column="33"/>
     </issue>
 
@@ -116,12 +76,12 @@ If your code is *deliberately* accessing newer APIs, and you have ensured (e.g. 
 If you are deliberately setting `android:` attributes in style definitions, make sure you place this in a `values-v11` folder in order to avoid running into runtime conflicts on certain devices where manufacturers have added custom attributes whose ids conflict with the new ones on later platforms.
 
 Similarly, you can use tools:targetApi=&quot;11&quot; in an XML file to indicate that the element will only be inflated in an adequate context."
-        errorLine1="     fragmentTransaction.setCustomAnimations(R.anim.no_anim_show,"
+        errorLine1="     fragmentTransaction.setCustomAnimations(R.anim.no_anim_show,"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="/home/thomas/workspace/WALLT/src/com/example/wallt/views/MainActivity.java"
-            line="63"
+            file="C:\Users\pbz18_000\Documents\M14\src\com\example\wallt\views\MainActivity.java"
+            line="54"
             column="26"/>
     </issue>
 
@@ -137,10 +97,10 @@ Similarly, you can use tools:targetApi=&quot;11&quot; in an XML file to indicate
 To fix this issue, set the `targetSdkVersion` to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
         url="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
         urls="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
-        errorLine1="    &lt;uses-sdk"
+        errorLine1="    &lt;uses-sdk"
         errorLine2="    ^">
         <location
-            file="/home/thomas/workspace/WALLT/AndroidManifest.xml"
+            file="C:\Users\pbz18_000\Documents\M14\AndroidManifest.xml"
             line="7"
             column="5"/>
     </issue>
@@ -155,10 +115,10 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         explanation="If a `&lt;FrameLayout>` is the root of a layout and does not provide background or padding etc, it can often be replaced with a `&lt;merge>` tag which is slightly more efficient. Note that this depends on context, so make sure you understand how the `&lt;merge>` tag works before proceeding."
         url="http://android-developers.blogspot.com/2009/03/android-layout-tricks-3-optimize-by.html"
         urls="http://android-developers.blogspot.com/2009/03/android-layout-tricks-3-optimize-by.html"
-        errorLine1="&lt;FrameLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine1="&lt;FrameLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
         errorLine2="^">
         <location
-            file="/home/thomas/workspace/WALLT/res/layout/activity_main.xml"
+            file="C:\Users\pbz18_000\Documents\M14\res\layout\activity_main.xml"
             line="2"
             column="1"/>
     </issue>
@@ -172,7 +132,7 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds.">
         <location
-            file="/home/thomas/workspace/WALLT/res/layout/activity_generated.xml"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\layout\activity_generated.xml"/>
     </issue>
 
     <issue
@@ -184,7 +144,7 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds.">
         <location
-            file="/home/thomas/workspace/WALLT/res/layout/fragment_generated.xml"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\layout\fragment_generated.xml"/>
     </issue>
 
     <issue
@@ -196,7 +156,7 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds.">
         <location
-            file="/home/thomas/workspace/WALLT/res/menu/login.xml"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\menu\login.xml"/>
     </issue>
 
     <issue
@@ -208,7 +168,7 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds.">
         <location
-            file="/home/thomas/workspace/WALLT/res/menu/main.xml"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\menu\main.xml"/>
     </issue>
 
     <issue
@@ -220,7 +180,7 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds.">
         <location
-            file="/home/thomas/workspace/WALLT/res/menu/signup.xml"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\menu\signup.xml"/>
     </issue>
 
     <issue
@@ -232,7 +192,7 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds.">
         <location
-            file="/home/thomas/workspace/WALLT/res/menu/splash.xml"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\menu\splash.xml"/>
     </issue>
 
     <issue
@@ -243,10 +203,10 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         priority="3"
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds."
-        errorLine1="    &lt;string name=&quot;title_activity_settings&quot;>Settings&lt;/string>"
+        errorLine1="    &lt;string name=&quot;title_activity_settings&quot;>Settings&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/res/values/strings.xml"
+            file="C:\Users\pbz18_000\Documents\M14\res\values\strings.xml"
             line="5"
             column="13"/>
     </issue>
@@ -259,10 +219,10 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         priority="3"
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds."
-        errorLine1="    &lt;string name=&quot;title_activity_reports&quot;>Reports&lt;/string>"
+        errorLine1="    &lt;string name=&quot;title_activity_reports&quot;>Reports&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/res/values/strings.xml"
+            file="C:\Users\pbz18_000\Documents\M14\res\values\strings.xml"
             line="6"
             column="13"/>
     </issue>
@@ -275,10 +235,10 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         priority="3"
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds."
-        errorLine1="    &lt;string name=&quot;title_activity_new_account&quot;>Add Account&lt;/string>"
+        errorLine1="    &lt;string name=&quot;title_activity_new_account&quot;>Add Account&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/res/values/strings.xml"
+            file="C:\Users\pbz18_000\Documents\M14\res\values\strings.xml"
             line="7"
             column="13"/>
     </issue>
@@ -291,10 +251,10 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         priority="3"
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds."
-        errorLine1="    &lt;string name=&quot;title_activity_splash&quot;>Splash&lt;/string>"
+        errorLine1="    &lt;string name=&quot;title_activity_splash&quot;>Splash&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/res/values/strings.xml"
+            file="C:\Users\pbz18_000\Documents\M14\res\values\strings.xml"
             line="9"
             column="13"/>
     </issue>
@@ -307,10 +267,10 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         priority="3"
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds."
-        errorLine1="    &lt;string name=&quot;title_activity_main&quot;>Accounts&lt;/string>"
+        errorLine1="    &lt;string name=&quot;title_activity_main&quot;>Accounts&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/res/values/strings.xml"
+            file="C:\Users\pbz18_000\Documents\M14\res\values\strings.xml"
             line="10"
             column="13"/>
     </issue>
@@ -323,10 +283,10 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         priority="3"
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds."
-        errorLine1="    &lt;string name=&quot;NoAccounts&quot;>No Accounts yet&lt;/string>"
+        errorLine1="    &lt;string name=&quot;NoAccounts&quot;>No Accounts yet&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/res/values/strings.xml"
+            file="C:\Users\pbz18_000\Documents\M14\res\values\strings.xml"
             line="28"
             column="13"/>
     </issue>
@@ -339,10 +299,10 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         priority="3"
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds."
-        errorLine1="    &lt;string name=&quot;title_activity_generated_report&quot;>GeneratedReportActivity&lt;/string>"
+        errorLine1="    &lt;string name=&quot;title_activity_generated_report&quot;>GeneratedReportActivity&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/res/values/strings.xml"
+            file="C:\Users\pbz18_000\Documents\M14\res\values\strings.xml"
             line="53"
             column="13"/>
     </issue>
@@ -355,10 +315,10 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         priority="3"
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds."
-        errorLine1="    &lt;string name=&quot;title_activity_generated&quot;>Generated Report&lt;/string>"
+        errorLine1="    &lt;string name=&quot;title_activity_generated&quot;>Generated Report&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/res/values/strings.xml"
+            file="C:\Users\pbz18_000\Documents\M14\res\values\strings.xml"
             line="54"
             column="13"/>
     </issue>
@@ -371,11 +331,11 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         priority="3"
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds."
-        errorLine1="    &lt;string name=&quot;bankname&quot;>Bank Name&lt;/string>"
+        errorLine1="    &lt;string name=&quot;bankname&quot;>Bank Name&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/res/values/strings.xml"
-            line="59"
+            file="C:\Users\pbz18_000\Documents\M14\res\values\strings.xml"
+            line="65"
             column="13"/>
     </issue>
 
@@ -387,11 +347,27 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         priority="3"
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds."
-        errorLine1="    &lt;string name=&quot;balance&quot;>Balance&lt;/string>"
+        errorLine1="    &lt;string name=&quot;balance&quot;>Balance&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/res/values/strings.xml"
-            line="60"
+            file="C:\Users\pbz18_000\Documents\M14\res\values\strings.xml"
+            line="66"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource R.string.reason_hint appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Looks for unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;reason_hint&quot;>Reason&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\pbz18_000\Documents\M14\res\values\strings.xml"
+            line="68"
             column="13"/>
     </issue>
 
@@ -403,11 +379,11 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         priority="3"
         summary="Looks for unused resources"
         explanation="Unused resources make applications larger and slow down builds."
-        errorLine1="    &lt;string name=&quot;accountnumber&quot;>Account Number&lt;/string>"
+        errorLine1="    &lt;string name=&quot;accountnumber&quot;>Account Number&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/res/values/strings.xml"
-            line="63"
+            file="C:\Users\pbz18_000\Documents\M14\res\values\strings.xml"
+            line="69"
             column="13"/>
     </issue>
 
@@ -424,23 +400,23 @@ The unique silhouette implies that your launcher icon should not be a filled squ
         url="http://developer.android.com/design/style/iconography.html"
         urls="http://developer.android.com/design/style/iconography.html">
         <location
-            file="/home/thomas/workspace/WALLT/res/drawable-hdpi/ic_launcher.png"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\drawable-hdpi\ic_launcher.png"/>
     </issue>
 
     <issue
         id="IconDipSize"
         severity="Warning"
-        message="The image ic_launcher.png varies significantly in its density-independent (dip) size across the various density versions: drawable-mdpi/ic_launcher.png: 286x211 dp (286x211 px), drawable-hdpi/ic_launcher.png: 191x141 dp (286x211 px), drawable-xhdpi/ic_launcher.png: 143x106 dp (286x211 px)"
+        message="The image ic_launcher.png varies significantly in its density-independent (dip) size across the various density versions: drawable-mdpi\ic_launcher.png: 286x211 dp (286x211 px), drawable-hdpi\ic_launcher.png: 191x141 dp (286x211 px), drawable-xhdpi\ic_launcher.png: 143x106 dp (286x211 px)"
         category="Usability:Icons"
         priority="5"
         summary="Ensures that icons across densities provide roughly the same density-independent size"
         explanation="Checks the all icons which are provided in multiple densities, all compute to roughly the same density-independent pixel (`dip`) size. This catches errors where images are either placed in the wrong folder, or icons are changed to new sizes but some folders are forgotten.">
         <location
-            file="/home/thomas/workspace/WALLT/res/drawable-xhdpi/ic_launcher.png"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\drawable-xhdpi\ic_launcher.png"/>
         <location
-            file="/home/thomas/workspace/WALLT/res/drawable-hdpi/ic_launcher.png"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\drawable-hdpi\ic_launcher.png"/>
         <location
-            file="/home/thomas/workspace/WALLT/res/drawable-mdpi/ic_launcher.png"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\drawable-mdpi\ic_launcher.png"/>
     </issue>
 
     <issue
@@ -452,13 +428,13 @@ The unique silhouette implies that your launcher icon should not be a filled squ
         summary="Finds icons that have identical bitmaps across various configuration parameters"
         explanation="If an icon is provided under different configuration parameters such as `drawable-hdpi` or `-v11`, they should typically be different. This detector catches cases where the same icon is provided in different configuration folder which is usually not intentional.">
         <location
-            file="/home/thomas/workspace/WALLT/res/drawable-xxhdpi/ic_launcher.png"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\drawable-xxhdpi\ic_launcher.png"/>
         <location
-            file="/home/thomas/workspace/WALLT/res/drawable-xhdpi/ic_launcher.png"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\drawable-xhdpi\ic_launcher.png"/>
         <location
-            file="/home/thomas/workspace/WALLT/res/drawable-mdpi/ic_launcher.png"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\drawable-mdpi\ic_launcher.png"/>
         <location
-            file="/home/thomas/workspace/WALLT/res/drawable-hdpi/ic_launcher.png"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\drawable-hdpi\ic_launcher.png"/>
     </issue>
 
     <issue
@@ -474,7 +450,7 @@ Low density is not really used much anymore, so this check ignores the ldpi dens
         url="http://developer.android.com/guide/practices/screens_support.html"
         urls="http://developer.android.com/guide/practices/screens_support.html">
         <location
-            file="/home/thomas/workspace/WALLT/res/drawable-mdpi"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\drawable-mdpi"/>
     </issue>
 
     <issue
@@ -490,7 +466,7 @@ Low density is not really used much anymore, so this check ignores the ldpi dens
         url="http://developer.android.com/guide/practices/screens_support.html"
         urls="http://developer.android.com/guide/practices/screens_support.html">
         <location
-            file="/home/thomas/workspace/WALLT/res/drawable-xhdpi"/>
+            file="C:\Users\pbz18_000\Documents\M14\res\drawable-xhdpi"/>
     </issue>
 
     <issue
@@ -507,18 +483,18 @@ If `always` is used sparingly there are usually no problems and behavior is roug
 This check looks for menu XML files that contain more than two `always` actions, or some `always` actions and no `ifRoom` actions. In Java code, it looks for projects that contain references to `MenuItem.SHOW_AS_ACTION_ALWAYS` and no references to `MenuItem.SHOW_AS_ACTION_IF_ROOM`."
         url="http://developer.android.com/design/patterns/actionbar.html"
         urls="http://developer.android.com/design/patterns/actionbar.html"
-        errorLine1="        android:showAsAction=&quot;always&quot;"
+        errorLine1="        android:showAsAction=&quot;always&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/home/thomas/workspace/WALLT/res/menu/account.xml"
+            file="C:\Users\pbz18_000\Documents\M14\res\menu\account.xml"
             line="8"
             column="9"/>
         <location
-            file="/home/thomas/workspace/WALLT/res/menu/account.xml"
+            file="C:\Users\pbz18_000\Documents\M14\res\menu\account.xml"
             line="13"
             column="9"/>
         <location
-            file="/home/thomas/workspace/WALLT/res/menu/account.xml"
+            file="C:\Users\pbz18_000\Documents\M14\res\menu\account.xml"
             line="18"
             column="9"/>
     </issue>

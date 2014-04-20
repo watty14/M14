@@ -2,201 +2,257 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/home/thomas/workspace/WALLT/res" >
+        <source path="C:\Users\pbz18_000\Documents\M14\res" >
             <file
-                path="/home/thomas/workspace/WALLT/res/values-sw720dp-land/dimens.xml"
-                qualifiers="sw720dp-land" >
-                <dimen name="activity_horizontal_margin" >128dp
-                </dimen>
-            </file>
+                name="no_anim"
+                path="C:\Users\pbz18_000\Documents\M14\res\anim\no_anim.xml"
+                qualifiers=""
+                type="anim" />
             <file
-                name="ic_launcher"
-                path="/home/thomas/workspace/WALLT/res/drawable-xxhdpi/ic_launcher.png"
-                qualifiers="xxhdpi"
-                type="drawable" />
+                name="no_anim_show"
+                path="C:\Users\pbz18_000\Documents\M14\res\anim\no_anim_show.xml"
+                qualifiers=""
+                type="anim" />
             <file
-                name="ic_launcher2"
-                path="/home/thomas/workspace/WALLT/res/drawable-xxhdpi/ic_launcher2.png"
-                qualifiers="xxhdpi"
-                type="drawable" />
+                name="slide_right_away"
+                path="C:\Users\pbz18_000\Documents\M14\res\anim\slide_right_away.xml"
+                qualifiers=""
+                type="anim" />
             <file
-                name="splash"
-                path="/home/thomas/workspace/WALLT/res/drawable-hdpi/splash.png"
-                qualifiers="hdpi"
-                type="drawable" />
-            <file
-                name="ic_action_overflow"
-                path="/home/thomas/workspace/WALLT/res/drawable-hdpi/ic_action_overflow.png"
-                qualifiers="hdpi"
-                type="drawable" />
-            <file
-                name="wallt"
-                path="/home/thomas/workspace/WALLT/res/drawable-hdpi/wallt.png"
+                name="background"
+                path="C:\Users\pbz18_000\Documents\M14\res\drawable-hdpi\background.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_action_new"
-                path="/home/thomas/workspace/WALLT/res/drawable-hdpi/ic_action_new.png"
+                path="C:\Users\pbz18_000\Documents\M14\res\drawable-hdpi\ic_action_new.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
-                name="ic_launcher"
-                path="/home/thomas/workspace/WALLT/res/drawable-hdpi/ic_launcher.png"
-                qualifiers="hdpi"
-                type="drawable" />
-            <file
-                name="ic_launcher2"
-                path="/home/thomas/workspace/WALLT/res/drawable-hdpi/ic_launcher2.png"
+                name="ic_action_overflow"
+                path="C:\Users\pbz18_000\Documents\M14\res\drawable-hdpi\ic_action_overflow.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_action_refresh"
-                path="/home/thomas/workspace/WALLT/res/drawable-hdpi/ic_action_refresh.png"
-                qualifiers="hdpi"
-                type="drawable" />
-            <file
-                name="background"
-                path="/home/thomas/workspace/WALLT/res/drawable-hdpi/background.png"
+                path="C:\Users\pbz18_000\Documents\M14\res\drawable-hdpi\ic_action_refresh.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/home/thomas/workspace/WALLT/res/drawable-xhdpi/ic_launcher.png"
+                path="C:\Users\pbz18_000\Documents\M14\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher2"
+                path="C:\Users\pbz18_000\Documents\M14\res\drawable-hdpi\ic_launcher2.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="splash"
+                path="C:\Users\pbz18_000\Documents\M14\res\drawable-hdpi\splash.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="wallt"
+                path="C:\Users\pbz18_000\Documents\M14\res\drawable-hdpi\wallt.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\pbz18_000\Documents\M14\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher2"
+                path="C:\Users\pbz18_000\Documents\M14\res\drawable-mdpi\ic_launcher2.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\pbz18_000\Documents\M14\res\drawable-xhdpi\ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher2"
-                path="/home/thomas/workspace/WALLT/res/drawable-xhdpi/ic_launcher2.png"
+                path="C:\Users\pbz18_000\Documents\M14\res\drawable-xhdpi\ic_launcher2.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/home/thomas/workspace/WALLT/res/drawable-mdpi/ic_launcher.png"
-                qualifiers="mdpi"
+                path="C:\Users\pbz18_000\Documents\M14\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher2"
-                path="/home/thomas/workspace/WALLT/res/drawable-mdpi/ic_launcher2.png"
-                qualifiers="mdpi"
+                path="C:\Users\pbz18_000\Documents\M14\res\drawable-xxhdpi\ic_launcher2.png"
+                qualifiers="xxhdpi"
                 type="drawable" />
-            <file
-                name="report_title"
-                path="/home/thomas/workspace/WALLT/res/layout/report_title.xml"
-                qualifiers=""
-                type="layout" />
             <file
                 name="account_row_layout"
-                path="/home/thomas/workspace/WALLT/res/layout/account_row_layout.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_login"
-                path="/home/thomas/workspace/WALLT/res/layout/activity_login.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_transaction"
-                path="/home/thomas/workspace/WALLT/res/layout/activity_transaction.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="settings_section_layout"
-                path="/home/thomas/workspace/WALLT/res/layout/settings_section_layout.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="spinner_item"
-                path="/home/thomas/workspace/WALLT/res/layout/spinner_item.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_splash"
-                path="/home/thomas/workspace/WALLT/res/layout/activity_splash.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="settings_row_button_layout"
-                path="/home/thomas/workspace/WALLT/res/layout/settings_row_button_layout.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_signup"
-                path="/home/thomas/workspace/WALLT/res/layout/activity_signup.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="report_twoitem"
-                path="/home/thomas/workspace/WALLT/res/layout/report_twoitem.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_reports"
-                path="/home/thomas/workspace/WALLT/res/layout/activity_reports.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_new_account"
-                path="/home/thomas/workspace/WALLT/res/layout/activity_new_account.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_generated"
-                path="/home/thomas/workspace/WALLT/res/layout/activity_generated.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="settings_row_two_layout"
-                path="/home/thomas/workspace/WALLT/res/layout/settings_row_two_layout.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="reports_report_layout"
-                path="/home/thomas/workspace/WALLT/res/layout/reports_report_layout.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_transaction_history"
-                path="/home/thomas/workspace/WALLT/res/layout/activity_transaction_history.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_generated"
-                path="/home/thomas/workspace/WALLT/res/layout/fragment_generated.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="reports_date_layout"
-                path="/home/thomas/workspace/WALLT/res/layout/reports_date_layout.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_settings"
-                path="/home/thomas/workspace/WALLT/res/layout/activity_settings.xml"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\account_row_layout.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_account"
-                path="/home/thomas/workspace/WALLT/res/layout/activity_account.xml"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\activity_account.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_generated"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\activity_generated.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_login"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\activity_login.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_main"
-                path="/home/thomas/workspace/WALLT/res/layout/activity_main.xml"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
-                path="/home/thomas/workspace/WALLT/res/values-v11/styles.xml"
-                qualifiers="v11" >
-
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light" >
-
-                    <!-- API 11 theme customizations can go here. -->
-                </style>
+                name="activity_new_account"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\activity_new_account.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_reports"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\activity_reports.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_settings"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\activity_settings.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_signup"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\activity_signup.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_splash"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\activity_splash.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_transaction"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\activity_transaction.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_transaction_history"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\activity_transaction_history.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_generated"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\fragment_generated.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="reports_date_layout"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\reports_date_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="reports_report_layout"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\reports_report_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="report_title"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\report_title.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="report_twoitem"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\report_twoitem.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="settings_row_button_layout"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\settings_row_button_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="settings_row_two_layout"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\settings_row_two_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="settings_section_layout"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\settings_section_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="spinner_item"
+                path="C:\Users\pbz18_000\Documents\M14\res\layout\spinner_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="account"
+                path="C:\Users\pbz18_000\Documents\M14\res\menu\account.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="generated"
+                path="C:\Users\pbz18_000\Documents\M14\res\menu\generated.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="login"
+                path="C:\Users\pbz18_000\Documents\M14\res\menu\login.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="C:\Users\pbz18_000\Documents\M14\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="new_account"
+                path="C:\Users\pbz18_000\Documents\M14\res\menu\new_account.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="reports"
+                path="C:\Users\pbz18_000\Documents\M14\res\menu\reports.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="settings"
+                path="C:\Users\pbz18_000\Documents\M14\res\menu\settings.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="signup"
+                path="C:\Users\pbz18_000\Documents\M14\res\menu\signup.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="splash"
+                path="C:\Users\pbz18_000\Documents\M14\res\menu\splash.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="wii"
+                path="C:\Users\pbz18_000\Documents\M14\res\raw\wii.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="C:\Users\pbz18_000\Documents\M14\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
             </file>
             <file
-                path="/home/thomas/workspace/WALLT/res/values/strings.xml"
+                path="C:\Users\pbz18_000\Documents\M14\res\values\strings.xml"
                 qualifiers="" >
                 <string name="title_activity_settings" >Settings
                 </string>
@@ -206,6 +262,10 @@
                 </string>
                 <string name="aboutSection" >ABOUT
                 </string>
+                <string name="spinner_income" >Income
+                </string>
+                <string name="spinner_bill" >Bill
+                </string>
                 <string name="accountActionsSection" >ACCOUNT ACTIONS
                 </string>
                 <string name="myAccountSection" >MY ACCOUNT
@@ -214,7 +274,11 @@
                 </string>
                 <string name="bankname_hint" >Bankname
                 </string>
+                <string name="spinner_food" >Food
+                </string>
                 <string name="NewAccount" >New Account
+                </string>
+                <string name="spinner_clothes" >Clothes
                 </string>
                 <string name="balance" >Balance
                 </string>
@@ -234,6 +298,8 @@
                 <string name="bankname" >Bank Name
                 </string>
                 <string name="amount_hint" >Amount
+                </string>
+                <string name="spinner_others" >Others
                 </string>
                 <string name="transactiongraphhistory_button_label" >Transaction Graph History
                 </string>
@@ -323,15 +389,7 @@
                 </string>
             </file>
             <file
-                path="/home/thomas/workspace/WALLT/res/values/dimens.xml"
-                qualifiers="" >
-                <dimen name="activity_horizontal_margin" >16dp
-                </dimen>
-                <dimen name="activity_vertical_margin" >16dp
-                </dimen>
-            </file>
-            <file
-                path="/home/thomas/workspace/WALLT/res/values/styles.xml"
+                path="C:\Users\pbz18_000\Documents\M14\res\values\styles.xml"
                 qualifiers="" >
 
                 <style
@@ -358,7 +416,24 @@
                 </style>
             </file>
             <file
-                path="/home/thomas/workspace/WALLT/res/values-v14/styles.xml"
+                path="C:\Users\pbz18_000\Documents\M14\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\pbz18_000\Documents\M14\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\pbz18_000\Documents\M14\res\values-v14\styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -368,72 +443,12 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
-            <file
-                name="no_anim"
-                path="/home/thomas/workspace/WALLT/res/anim/no_anim.xml"
-                qualifiers=""
-                type="anim" />
-            <file
-                name="slide_right_away"
-                path="/home/thomas/workspace/WALLT/res/anim/slide_right_away.xml"
-                qualifiers=""
-                type="anim" />
-            <file
-                name="no_anim_show"
-                path="/home/thomas/workspace/WALLT/res/anim/no_anim_show.xml"
-                qualifiers=""
-                type="anim" />
-            <file
-                name="main"
-                path="/home/thomas/workspace/WALLT/res/menu/main.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="account"
-                path="/home/thomas/workspace/WALLT/res/menu/account.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="splash"
-                path="/home/thomas/workspace/WALLT/res/menu/splash.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="login"
-                path="/home/thomas/workspace/WALLT/res/menu/login.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="settings"
-                path="/home/thomas/workspace/WALLT/res/menu/settings.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="new_account"
-                path="/home/thomas/workspace/WALLT/res/menu/new_account.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="generated"
-                path="/home/thomas/workspace/WALLT/res/menu/generated.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="reports"
-                path="/home/thomas/workspace/WALLT/res/menu/reports.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="signup"
-                path="/home/thomas/workspace/WALLT/res/menu/signup.xml"
-                qualifiers=""
-                type="menu" />
         </source>
-        <source path="/home/thomas/workspace/WALLT/build/res/rs/release" />
-        <source path="/home/thomas/workspace/WALLT/build/res/generated/release" />
+        <source path="C:\Users\pbz18_000\Documents\M14\build\res\rs\release" />
+        <source path="C:\Users\pbz18_000\Documents\M14\build\res\generated\release" />
     </dataSet>
     <dataSet config="release" >
-        <source path="/home/thomas/workspace/WALLT/src/release/res" />
+        <source path="C:\Users\pbz18_000\Documents\M14\src\release\res" />
     </dataSet>
 
 </merger>

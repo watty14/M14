@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/thomas/workspace/WALLT/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/pbz18_000/Documents/M14/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/home/thomas/workspace/WALLT/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/pbz18_000/Documents/M14/res/values/strings.xml -->
     <eat-comment />
 
     <string name="AreYouSure">Are you sure?</string>
@@ -52,6 +52,11 @@
     <string name="reason_hint">Reason</string>
     <string name="signup_button_label">SIGN UP</string>
     <string name="spending_report">Spending</string>
+    <string name="spinner_bill">Bill</string>
+    <string name="spinner_clothes">Clothes</string>
+    <string name="spinner_food">Food</string>
+    <string name="spinner_income">Income</string>
+    <string name="spinner_others">Others</string>
     <string name="title_activity_account">Accounts</string>
     <string name="title_activity_generated">Generated Report</string>
     <string name="title_activity_generated_report">GeneratedReportActivity</string>
@@ -71,7 +76,7 @@
     <string name="username_hint">Username</string>
     <string name="verifypassword_hint">Retype Password</string>
     <string name="withdraw_button_label">Withdraw</string>
-    <!-- From: file:/home/thomas/workspace/WALLT/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/pbz18_000/Documents/M14/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">

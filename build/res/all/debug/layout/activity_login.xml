@@ -62,4 +62,4 @@
         android:layout_below="@+id/login_button"
         android:text="@string/signup_button_label" />
 
-</RelativeLayout><!-- From: file:/home/thomas/workspace/WALLT/res/layout/activity_login.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/pbz18_000/Documents/M14/res/layout/activity_login.xml -->
